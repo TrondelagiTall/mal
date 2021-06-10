@@ -1,0 +1,13 @@
+{
+
+"name": "TRFK",
+
+"dataColors": [ "#018a92", "#e35205", "#ffdd00", "#cdc9af", "#004052", "#67b9be", "#ee9769", "#ffeb66", "#e1dfcf", "#668c97" ],
+
+"background":"#FFFFFF",
+
+"foreground": "#1b7eac",
+
+"tableAccent":"#5cbae5"
+
+}

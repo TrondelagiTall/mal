@@ -1,6 +1,6 @@
 {
   "name": "TRFK",
-  "background": "#e1e6ea",
+  "background": "#cdc9af",
   "foreground": "#ffffff",
   "tableAccent": "#000000",
   "dataColors": [ "#018a92", "#e35205", "#ffdd00", "#cdc9af", "#004052", "#67b9be", "#ee9769", "#ffeb66", "#e1dfcf", "#668c97"],
@@ -53,7 +53,7 @@
       "*": {
         "background": [
           {
-            "color": { "solid": { "color": "#e9ecef" } },
+            "color": { "solid": { "color": "#ffffff" } },
             "transparency": 0,
             "image": {
                 "name": "Background",
@@ -65,7 +65,7 @@
         
         "outspace": [
           {
-            "color": { "solid": { "color": "#e9ecef" } },
+            "color": { "solid": { "color": "#cdc9af" } },
             "transparency": 0
 
           }

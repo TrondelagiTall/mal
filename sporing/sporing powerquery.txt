@@ -1,0 +1,13 @@
+let
+    
+    GitHublist="https://raw.githubusercontent.com/TrondelagiTall/mal/main/sporing/list%20regione.txt",
+    reglist=(Text.FromBinary(Web.Contents(GitHublist))),
+
+    GitHubUrl = "https://raw.githubusercontent.com/TrondelagiTall/mal/main/sporing/query07459.txt",
+    QueryText = Text.FromBinary(Web.Contents(GitHubUrl)),
+    
+    ReplacedValues = Text.Replace(QueryText, """50""", reglist),
+
+    Kilde = Csv.Document(Web.Contents("https://data.ssb.no/api/v0/no/table/07459/", [Content=Text.ToBinary(ReplacedValues)]), [Encoding=1252])
+in
+    Kilde

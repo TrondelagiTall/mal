@@ -1,6 +1,6 @@
 {
   "name": "TrondelagITall",
-  "$schema": "reportThemeSchema-2.117.json",
+  "$schema": "reportThemeSchema-2.129.json",
   "background": "#e1e6ea",
   "foreground": "#ffffff",
   "tableAccent": "#000000",
